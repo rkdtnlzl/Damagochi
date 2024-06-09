@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		016B9C0C2C12DE86009D2996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C0B2C12DE86009D2996 /* AppDelegate.swift */; };
 		016B9C0E2C12DE86009D2996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C0D2C12DE86009D2996 /* SceneDelegate.swift */; };
-		016B9C102C12DE86009D2996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C0F2C12DE86009D2996 /* ViewController.swift */; };
+		016B9C102C12DE86009D2996 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C0F2C12DE86009D2996 /* MainViewController.swift */; };
 		016B9C152C12DE88009D2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016B9C142C12DE88009D2996 /* Assets.xcassets */; };
 		016B9C182C12DE88009D2996 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 016B9C172C12DE88009D2996 /* Base */; };
 		016B9C202C12DF86009D2996 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 016B9C1F2C12DF86009D2996 /* .gitignore */; };
+		016B9C222C12E2CF009D2996 /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C212C12E2CF009D2996 /* UIColors.swift */; };
+		016B9C252C12E4AD009D2996 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 016B9C242C12E4AD009D2996 /* SnapKit */; };
+		016B9C272C12E706009D2996 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C262C12E706009D2996 /* MainCollectionViewCell.swift */; };
+		016B9C292C12F3A2009D2996 /* MainPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C282C12F3A2009D2996 /* MainPopupViewController.swift */; };
+		016B9C2C2C12FE6A009D2996 /* DamagochiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C2B2C12FE6A009D2996 /* DamagochiData.swift */; };
+		016B9C2F2C1303BB009D2996 /* GrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C2E2C1303BB009D2996 /* GrowViewController.swift */; };
+		016B9C312C15DB13009D2996 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C302C15DB13009D2996 /* MyPageViewController.swift */; };
+		016B9C332C15E2A9009D2996 /* NameSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C322C15E2A9009D2996 /* NameSettingViewController.swift */; };
+		016B9C352C15E2C8009D2996 /* ChangeDamagochiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B9C342C15E2C8009D2996 /* ChangeDamagochiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		016B9C082C12DE86009D2996 /* Damagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016B9C0B2C12DE86009D2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016B9C0D2C12DE86009D2996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		016B9C0F2C12DE86009D2996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		016B9C0F2C12DE86009D2996 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		016B9C142C12DE88009D2996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016B9C172C12DE88009D2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016B9C192C12DE88009D2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		016B9C1F2C12DF86009D2996 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		016B9C212C12E2CF009D2996 /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		016B9C262C12E706009D2996 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		016B9C282C12F3A2009D2996 /* MainPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPopupViewController.swift; sourceTree = "<group>"; };
+		016B9C2B2C12FE6A009D2996 /* DamagochiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamagochiData.swift; sourceTree = "<group>"; };
+		016B9C2E2C1303BB009D2996 /* GrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowViewController.swift; sourceTree = "<group>"; };
+		016B9C302C15DB13009D2996 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		016B9C322C15E2A9009D2996 /* NameSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSettingViewController.swift; sourceTree = "<group>"; };
+		016B9C342C15E2C8009D2996 /* ChangeDamagochiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDamagochiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016B9C252C12E4AD009D2996 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +77,36 @@
 			children = (
 				016B9C0B2C12DE86009D2996 /* AppDelegate.swift */,
 				016B9C0D2C12DE86009D2996 /* SceneDelegate.swift */,
-				016B9C0F2C12DE86009D2996 /* ViewController.swift */,
+				016B9C2A2C12F409009D2996 /* Main */,
+				016B9C2D2C130387009D2996 /* Grow */,
+				016B9C212C12E2CF009D2996 /* UIColors.swift */,
+				016B9C2B2C12FE6A009D2996 /* DamagochiData.swift */,
 				016B9C142C12DE88009D2996 /* Assets.xcassets */,
 				016B9C162C12DE88009D2996 /* LaunchScreen.storyboard */,
 				016B9C192C12DE88009D2996 /* Info.plist */,
 			);
 			path = Damagochi;
+			sourceTree = "<group>";
+		};
+		016B9C2A2C12F409009D2996 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				016B9C0F2C12DE86009D2996 /* MainViewController.swift */,
+				016B9C262C12E706009D2996 /* MainCollectionViewCell.swift */,
+				016B9C282C12F3A2009D2996 /* MainPopupViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		016B9C2D2C130387009D2996 /* Grow */ = {
+			isa = PBXGroup;
+			children = (
+				016B9C2E2C1303BB009D2996 /* GrowViewController.swift */,
+				016B9C302C15DB13009D2996 /* MyPageViewController.swift */,
+				016B9C322C15E2A9009D2996 /* NameSettingViewController.swift */,
+				016B9C342C15E2C8009D2996 /* ChangeDamagochiViewController.swift */,
+			);
+			path = Grow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +125,9 @@
 			dependencies = (
 			);
 			name = Damagochi;
+			packageProductDependencies = (
+				016B9C242C12E4AD009D2996 /* SnapKit */,
+			);
 			productName = Damagochi;
 			productReference = 016B9C082C12DE86009D2996 /* Damagochi.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,9 @@
 				Base,
 			);
 			mainGroup = 016B9BFF2C12DE86009D2996;
+			packageReferences = (
+				016B9C232C12E4AD009D2996 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 016B9C092C12DE86009D2996 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016B9C102C12DE86009D2996 /* ViewController.swift in Sources */,
+				016B9C292C12F3A2009D2996 /* MainPopupViewController.swift in Sources */,
+				016B9C312C15DB13009D2996 /* MyPageViewController.swift in Sources */,
+				016B9C332C15E2A9009D2996 /* NameSettingViewController.swift in Sources */,
+				016B9C2F2C1303BB009D2996 /* GrowViewController.swift in Sources */,
+				016B9C102C12DE86009D2996 /* MainViewController.swift in Sources */,
+				016B9C222C12E2CF009D2996 /* UIColors.swift in Sources */,
+				016B9C272C12E706009D2996 /* MainCollectionViewCell.swift in Sources */,
 				016B9C0C2C12DE86009D2996 /* AppDelegate.swift in Sources */,
+				016B9C352C15E2C8009D2996 /* ChangeDamagochiViewController.swift in Sources */,
 				016B9C0E2C12DE86009D2996 /* SceneDelegate.swift in Sources */,
+				016B9C2C2C12FE6A009D2996 /* DamagochiData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		016B9C232C12E4AD009D2996 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		016B9C242C12E4AD009D2996 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 016B9C232C12E4AD009D2996 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 016B9C002C12DE86009D2996 /* Project object */;
 }
